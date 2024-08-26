@@ -158,8 +158,8 @@ function create_layout()
 end
 
 app = dash()
-app.title = "PurpleSec"
-Clustername = "K8-s9x"
+app.title = "Sharang"
+Clustername = "UniCorn-Sx"
 Kubernetes_version="1.30.1"
 clusterNodes="6"
 pod="21"
