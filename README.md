@@ -22,15 +22,10 @@
 
         ```
         using Pkg
-        Pkg.add("UUIDs")
-        using UUIDs
-
-        my_uuid = uuid4()
-        println(my_uuid)
         ```
     - Using Script:
         ```
-        julia generateUUID.jl
+        julia src/setup.jl
         ```
 4. Build the Project:
 
