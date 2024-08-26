@@ -1,0 +1,13 @@
+.git
+*.o
+*.so
+*.dylib
+*.dll
+*.a
+*.py
+
+Pkg/
+
+.vscode/
+.idea/
+node_modules/*

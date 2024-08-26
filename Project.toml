@@ -1,0 +1,12 @@
+name = "xre"
+uuid = "9458cb15-dfec-4014-af85-2a7c669c0be7"
+authors = ["samirparhi-dev <samirparhi@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Dash = "1.5.0"
+HTTP = "1.10.8"
+JSON3 = "1.14.0"
+Macro = "*"
+DashBootstrapComponents = "1.4.1"
+OAuth = "1.2.0"
