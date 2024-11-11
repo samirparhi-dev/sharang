@@ -1,10 +1,10 @@
-# PurpleSec : The Productivity app for DevSecOps Team you are waiting For.
+# Sharang : The Productivity app for DevSecOps Team you are waiting For 😁
 
-## Runing this project
+## Running the App 🚀
 
 > ### ⚠️ Navigate in to the project root And Run the the below commands
 
-```cd purple-sec```
+``````
 
 1. Install Dependency
 
