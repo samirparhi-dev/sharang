@@ -25,7 +25,7 @@ function create_layout()
         
     html_div([
         html_div([
-            html_img(src="https://raw.githubusercontent.com/samirparhi-dev/samirparhi-dev/main/Sharang.svg", style=Dict(
+            html_img(src="https://raw.githubusercontent.com/samirparhi-dev/samirparhi-dev/main//Logos/Sharang.svg", style=Dict(
                  "height" => "130px",
                 "fontFamily" => "Dosis,Verdana, Geneva, sans-serif",
                 "width" => "130px",
