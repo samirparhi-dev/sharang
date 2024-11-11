@@ -1,34 +1,27 @@
 # Sharang : The Productivity app for DevSecOps Team you are waiting For 😁
 
+![image](https://raw.githubusercontent.com/samirparhi-dev/sharang/main/assets/sharang-demo.png)
+
+Built with `Julia` `plotly-dash`
+
 ## Running the App 🚀
 
-> ### ⚠️ Navigate in to the project root And Run the the below commands
+> ### ⚠️ Navigate in to the root of the project And Run the the below commands
 
-``````
+## Build the Image
 
-1. Install Dependency
+`podman build -t sharang-app .`
 
+## Check for the container image if created successfully
 
-`julia install_packages.jl`
+`podman images`
 
+## Run the Container Image
 
-2. Run the App
+`podman run -dt -p 8080:8080 sharang-app`
 
-`julia app.jl`
+## Access the App
 
-3. Install Package for your Project :black_nib:
+Open `http://localhost:8080/` in your favorite browser 🌏
 
-    - Using Julia `REPL`:
-
-        ```
-        using Pkg
-        ```
-    - Using Script:
-        ```
-        julia src/setup.jl
-        ```
-4. Build the Project:
-
-`
-julia ./src/app.jl
-`
+> You might see Few of the hardcoded features, You may connect @samirparhi-dev for the full featured APP
